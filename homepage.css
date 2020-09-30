@@ -71,9 +71,9 @@ h6{
 #navlinks li{
   display: inline;
   margin-right: 0.5em;
-	padding-right: 0.75em;
-	border-right: 1px solid #99C;
-	font-weight: bold;
+  padding-right: 0.75em;
+  border-right: 1px solid #99C;
+  font-weight: bold;
 }
 
 #navlinks li.last{
@@ -85,9 +85,9 @@ h6{
 }
 
 img#head{
-		float: left;
-		padding: 10px 10px 10px 0;
-		}
+  float: left;
+  padding: 10px 10px 10px 0;
+}
 
 /** Content ----------------------------------------------- **/
 
@@ -109,21 +109,21 @@ img#head{
   font-family: cursive;
   font-size: 2em;
   /*margin: 10 4em 1.25em 0em;*/
-	padding: 0.5em 0.5em 0.5em 0.5em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
   color: white;
 }
 
 /** Footer Style ---------------------------------------- **/
 
 #footer {
-	clear: both;
-	padding: 1em 1em;
+  clear: both;
+  padding: 1em 1em;
   border-top-style: dotted;
   border-top-color: red;
 }
 
 #footer p {
-	margin: 1em 0em 1em 0em;
+  margin: 1em 0em 1em 0em;
   width: 100%
   color: white;
 }
