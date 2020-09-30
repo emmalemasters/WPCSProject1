@@ -1,0 +1,129 @@
+/** Generic Styles ---------------------------------------------- **/
+
+body{
+  margin: 0; padding: 0;
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+  color: orange;
+  /*how to change link color after visitng and while hovering*/
+}
+
+a img{
+  border: none;
+}
+
+p{
+  margin: 0 0 1em;
+}
+
+/** Main Styles ------------------------------------------------- **/
+
+#main{
+  margin-bottom: 1.75em; padding-top: 1px;
+  background: black;
+}
+
+#main h1{
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 50px;
+  padding: 5px 5px 5px 5px;
+  color: white;
+}
+
+/* trying to get image to be background of title */
+#main img{
+  width: 100%;
+}
+
+#navlinks{
+  text-align: center;
+  margin: 0;
+  padding: 0.5em 3em;
+  background: black;
+  color: red;
+  font-size: 15px;
+  list-style: none;
+  border-bottom-color: red;
+  border-bottom-style: dotted;
+  border-top-color: red;
+  border-top-style: dotted;
+}
+
+#navlinks li{
+  display: inline;
+  margin-right: 0.5em;
+	padding-right: 0.75em;
+	border-right: 1px solid #99C;
+	font-weight: bold;
+}
+
+#navlinks li.last{
+  border-right: 0;
+}
+
+#navlinks a{
+  color: gray;
+}
+
+/** Content ----------------------------------------------- **/
+
+#content{
+  margin-left: 3em;
+  margin-top: 1em;
+}
+
+#content img{
+  margin-right: 30em;
+  padding: 0;
+  padding-top: 0;
+}
+
+#content h1{
+  float: none;
+  text-align: center;
+  font-size: 2.2em;
+  margin: 10 4em 1.25em 0em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+  color: white;
+}
+
+#contenth2 {
+  float: left;
+  width: 70%;
+  margin-top: 0.5em;
+	font-size: 1.3em;
+}
+
+hr{
+  clear: both;
+  margin-right: 1em;
+}
+
+#contenth2 h2 {
+	margin-right: 0em;
+  margin-top: 0;
+  padding: 0.25em;
+  border: 1px solid;
+	font-size: 1.5em;
+  background-color: black;
+	color: orange;
+}
+
+
+/** More Styles ---------------------------------------- **/
+
+#sidebar{
+  float: left;
+	width: 20%;
+  margin: 0 9px 2em -18em;
+}
+
+img#head{
+  float: left;
+	padding: 10px 10px 10px 0;
+}
